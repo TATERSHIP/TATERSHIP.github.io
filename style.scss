@@ -4,6 +4,7 @@
 //
 // IMPORTS
 //
+
 @import "reset";
 @import "variables";
 // Syntax highlighting @import is at the bottom of this file
@@ -14,84 +15,36 @@
 
 html {
   font-size: 100%;
-  background-color: #000000;
-  height: 100%;
 }
 
 body {
-	background: url(https://blog.spoongraphics.co.uk/wp-content/uploads/2010/camo-patterns/Woodland-Camo.jpg);
+  background-image: url("http://freshwallpapers.in/walls/abstract_digital-HD.jpg");
+ // background-image: url("http://www.sociallink1.com/wp-content/uploads/2015/06/Free-Download-Background-Images-For-Website-Design-4.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-size: 100% 100%;
-  font: 18px/1.4 $courier;
-  background-color: #ffffff;
-  
-  
+  background-position: center; 
+  font: 18px/1.4 $helvetica;
+  color: #ffffff;
 }
 
-table{
- 	border-collapse: collapse; 
-         width: 100%; 
-
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
+.font_proof {
+	font-family: $cust_font;
+}
 	
-	
-}
-
-table, th, td {
-
-
-
-}
-
-table, td {
-    background: #ededed;
-    border: 1px solid Black;
-   color: #000000;
-    padding: 10px;
-	vertical-align: middle;
-	  
-}
-
-table, th {
-    
-    color: #ededed; 
-    background: #000000; 
-    height:50px; 
-    vertical-align: middle; 
-	border: 1px solid #ededed;
-}
-.red {color:red;}
-
-
-iframe {
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
-	margin-bottom: 15px;
-	width: 100%;
-}
-
-.switcherItem {
-    color: #333;
-}
-
 .container {
   margin: 0 auto;
-  max-width: 740px;
-  border-radius: 15px;
-  border-color: #000000;
+  max-width: 850px;
   padding: 0 10px;
   width: 100%;
-  background-color:rgba(35, 50, 55, 0.78);
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
-	color:#ededed;
-	
-	//'position', 'absolute';
-	
+  background:rgba(35, 50, 55,0.9);
+	border-radius: 25px;
+    padding: 20px; 
+	border-bottom: 1px solid white;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: $courier;
-  color: #EAC67A;
+  font-family: Verdana, Geneva, sans-serif;
+  color: #eac67a;
   font-weight: bold;
 
   line-height: 1.7;
@@ -104,7 +57,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  font-size: 20px;
+  font-size: 30px;
   a {
     color: inherit;
   }
@@ -120,7 +73,7 @@ h3 {
 
 h4 {
   font-size: 18px;
-  color: $gray;
+  color: #98434b;
 }
 
 p {
@@ -128,11 +81,11 @@ p {
 }
 
 a {
-  color: #000000;
+  color: #984b43;
   text-decoration: none;
 	cursor: pointer;
   &:hover, &:active {
-    color: #4b5320;
+    color: #eac67a;
   }
 }
 
@@ -169,6 +122,41 @@ img {
   max-width: 100%;
 }
 
+table {
+    border-collapse: collapse;
+    width: 100%;
+	border-radius: 25px;
+}
+
+table, th, td {
+   border: 1px solid white;
+	background-color:#984b43;
+
+}
+
+td {
+   vertical-align: middle; 
+   padding: 10px;
+}	
+
+th {
+   color: white;
+   background: #233237;
+   height:50px;
+   vertical-align: middle;
+}
+
+div.vid {
+    width: 560px;
+    height: 340px;
+    margin: 0 auto;
+}
+
+iframe{
+	width: 100%;
+	
+}
+
 // Fixes images in popup boxes from Google Translate
 .gmnoprint img {
   max-width: none;
@@ -176,7 +164,7 @@ img {
 
 .date {
   font-style: italic;
-  color: $gray;
+  color: white;
 }
 
 // Specify the color of the selection
@@ -210,12 +198,12 @@ img {
 //
 
 .wrapper-masthead {
-  margin-bottom: 50px;
+  margin-bottom: 25px;
 }
 
 .masthead {
   padding: 20px 0;
-  
+  border-bottom: 1px solid white;
 
   @include mobile {
     text-align: center;
@@ -251,9 +239,9 @@ img {
 
 .site-name {
   margin: 0;
-  color: #EAC67A;
+  color: #eac67a;
   cursor: pointer;
-  font-family: $courier;
+  font-family: $helveticaNeue;
   font-weight: 300;
   font-size: 28px;
   letter-spacing: 1px;
@@ -261,7 +249,7 @@ img {
 
 .site-description {
   margin: -5px 0 0 0;
-  color: #ffffff;
+  color: white;
   font-size: 16px;
 
   @include mobile {
@@ -272,20 +260,19 @@ img {
 nav {
   float: right;
   margin-top: 23px; // @TODO: Vertically middle align
-  font-family: $courier;
+  font-family: $helveticaNeue;
   font-size: 18px;
 
   @include mobile {
     float: none;
-
-	  margin-top: 9px;
+    margin-top: 9px;
     display: block;
     font-size: 16px;
   }
 
   a {
     margin-left: 20px;
-    color: #ffffff;
+    color: white;
     text-align: right;
     font-weight: 300;
     letter-spacing: 1px;
@@ -303,7 +290,7 @@ nav {
 
 .posts > .post {
   padding-bottom: 2em;
-  border-bottom: 1px solid $lightGray;
+  border-bottom: 1px solid white;
 }
 
 .posts > .post:last-child {
@@ -314,9 +301,9 @@ nav {
 .post {
   blockquote {
     margin: 1.8em .8em;
-    border-left: 2px solid $gray;
+    border-left: 2px solid white;
     padding: 0.1em 1em;
-    color: $gray;
+    color: white;
     font-size: 22px;
     font-style: italic;
   }
@@ -331,32 +318,20 @@ nav {
   }
 }
 
-//not using this at the moment
-.wrapper-footer {
-  margin-top: 50px;
-  border-top: 1px solid #ddd;
-  border-bottom: 1px solid #ddd;
-  background-color: black;
-}
-div.picture1 {
-   width:100px; /*width of your image*/
-   height:100px; /*height of your image*/
-   background-image:url('project stage 4-1 code.PNG'); 
-   margin:0; /* If you want no margin */
-   padding:0; /*if your want to padding */
-}
+//.wrapper-footer {
+//  margin-top: 50px;
+//  border-top: 1px solid #ddd;
+//  border-bottom: 1px solid #ddd;
+//  background-color: $lightGray;
+//}
 
 footer {
   padding: 20px 0;
   text-align: center;
-  position: fixed;
-  left: 47%;
-  bottom: 0;
+	border-bottom: 1px solid white;
 }
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
 @import "highlights";
 @import "svg-icons";
-
-
