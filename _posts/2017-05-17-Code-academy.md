@@ -1,5 +1,5 @@
 ---
-title: 2 Code academy
+title: Code academy 2
 layout: post
 author: tate.lockwood-roden
 permalink: /2-code-academy/
