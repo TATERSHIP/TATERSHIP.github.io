@@ -131,22 +131,29 @@ table {
 }
 
 table, th, td {
-   border: 1px solid white;
-	background-color:#984b43;
+
+
 
 }
 
-td {
-   vertical-align: middle; 
-   padding: 10px;
-}	
-
-th {
-   color: white;
-   background: #233237;
-   height:50px;
-   vertical-align: middle;
+table, td {
+    background: #ededed;
+    border: 1px solid Black;
+   color: #000000;
+    padding: 10px;
+	vertical-align: middle;
+	  
 }
+
+table, th {
+    
+    color: #ededed; 
+    background: #000000; 
+    height:50px; 
+    vertical-align: middle; 
+	border: 1px solid #ededed;
+}
+.red {color:red;}
 
 div.vid {
     width: 560px;
