@@ -132,6 +132,7 @@ table {
 	border-radius: 25px;
 }
 
+
 table, th, td {
 
 
@@ -139,9 +140,9 @@ table, th, td {
 }
 
 table, td {
-    background: #564dd1;
+    background: #ededed;
     border: 1px solid Black;
-   color: #564dd1;
+   color: #000000;
     padding: 10px;
 	vertical-align: middle;
 	  
@@ -149,12 +150,21 @@ table, td {
 
 table, th {
     
-    color: #564dd1;
-    background: #564dd1; 
+    color: #ededed; 
+    background: #000000; 
     height:50px; 
     vertical-align: middle; 
 	border: 1px solid #ededed;
 }
+.red {color:red;}
+
+
+
+
+
+
+	  
+
 
 
 div.vid {
