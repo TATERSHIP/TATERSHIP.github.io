@@ -23,7 +23,7 @@ published: true
   </tr>
   <tr>
     <td>Target for this lesson?</td>
-    <td>Reach Leeson 2</td>
+    <td>Reach Lesson 2</td>
   </tr>
   <tr>
     <td>Did I reach my target? 
