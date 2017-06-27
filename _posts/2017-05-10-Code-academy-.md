@@ -42,7 +42,8 @@ published: true
   </tr>
   <tr>
     <td>In the lesson I learnt about the basics of Python, I completed 2 interactive lessons on the website which were fun to work through because of the way you were told how to do them. One of the exercises I did, Python Syntax, taught me all the basics I needed to know. An open mind was useful so that I could understand everything. The way I was able to learn easily is because of that reason 
-</td>
+<img src="https://github.com/jackm245/jackm245.github.io/blob/master/images/photo-resistance-ldr-10mm.jpg?raw=true">
+</td>   
   </tr>
   <tr>
     <td>What limited my learning? Which habits do I need to work on? </td>
